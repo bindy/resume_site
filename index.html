@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>site_jc</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src='js/firebase.js'></script>
+</head>
+<body id="ID_body">
+  <section class="wrap">
+    <header class="wrap-hd" style="display:none">
+      <div class="info-designer">
+        <p>Designer : Jocelyn Chan</p>
+        <p>Link : http://weibo.com/yajocelyn</p>
+      </div>
+    </header>
+    <div class="wrap-bd" ID="ID_section">
+      <section id="ID_home" class="section-home" style="display:;">
+        <img src="img/img_avatar.png" alt="" class="img-avatar">
+        <span class="slice"></span>
+        <img src="img/img_intro.png" alt="" class="img-intro">
+         <footer class="wrap-ft">
+          <p>Copyright &copy; 2012-2014.Vitamin Source.All Right Reserved</p>
+        </footer>
+      </section>
+      <section id="ID_work" class="section-work" >
+        <nav class="tab" id="ID_tab">
+          <ul>
+            <li class="item item-hand current"><a href="#" class="item-hand"><span class="radio"></span>设计 <span class="item-hand">DESIGN</span></a></li>
+            <li><span class="img-avatar"></span></li>
+            <li class="item item-photo"><a href="#" class="item-photo"><span class="radio"></span>摄影 <span class="item-photo">PHOTOGRAPHY</span></a></li>
+          </ul>
+          <span class="line"></span>
+        </nav>
+        <div class="list-work-wrap" id="ID_work_wrap">
+          <div class="list-work work show">
+            <ul class="" id="ID_workList"></ul>
+          </div>
+          <div class="list-work photo hide">
+             <ul class="" id="ID_photoList"></ul>
+          </div>
+        </div>
+        <div class="page-wrap" id="ID_page" >
+          <div class="scrollbar" data-type="c_hand"></div>
+          <div class="page"><span class="current">1</span>/<span class="all">3</span></div>
+        </div>
+      </section>
+      <section id="ID_contact" class="section-contact" style="display:;">
+        <div class="letter">
+          <img src="img/img_avatar_big.png" alt="" class="img-avatar">
+          <form  id="ID_form">
+            <legend>联系 <span>CONTACT ME</span></legend>
+            <div class="form-item">
+              <label for="name" class="label-name">
+                <i class="ico ico-profile"></i>
+                <input type="text" name="name" placeholder="Name" data-func="valid" class="name_cont"> 
+              </label>
+              <i class="ico "></i>
+            </div>
+            <div  class="form-item">
+              <label for="email" class="label-email">
+                <i class="ico ico-email"></i>
+                <input type="text" name="email" placeholder="Email Address" data-func="valid" class="email_cont" > 
+              </label>
+              <i class="ico "></i>
+
+            </div>
+            <div  class="form-item">
+              <label for="message" class="label-message ">
+                <i class="ico ico-comment"></i>
+                <textarea name="message" maxlength="120" placeholder="Message" data-func="valid"  class="comment_cont"></textarea >
+                  <span class="limited">120 words</span> 
+                </label>
+                <i class="ico "></i>
+              </div> 
+              <div class="btns">
+                <input class="btn-submit false" value="Submit" type="button"/>
+              </div>
+
+            </form>
+            <div class="feedback hide" id="ID_feedback">
+              <div class="msg-feedback">
+                <p class="detail-ico"><i class="ico ico-correct-b"></i>
+                  <span class="text">成功发送</span></p>
+                  <p class="detail-text">谢谢你的信息，我会尽快回复</p>
+                  <p class="detail-text">Thank you for your message</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="letter bg1"></div>
+            <div class="letter bg2"></div>
+            <div class="letter bg3"></div>
+            <div class="wrap-plane">
+              <span class="path"><svg version="1.1" id="path" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 318 627" >
+                <path id="ID_line" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="4.9649,4.9649" d="M147.198,194.049     C174.86,184.667,199.799,154.235,199,113c-0.425-21.946-19.163-55.889-39-50c-25.171,7.472-4.265,50.492,15,18     c22.48-37.915-37.756-71.6-71.03-75.617"/>
+              </svg></span>
+              <span class="plane" id="ID_plane"></span>
+            </div>
+          </section>
+          
+        </div>
+        <nav class="nav-side" id="ID_nav">
+          <ul>
+            <li class="current"><a href="#" class="btn-nav" title="首页"><i class="ico ico-home"></i><span>home</span></a></li>
+            <li><a href="#" class="btn-nav" title="作品"><i class="ico ico-work"></i><span>work</span></a></li>
+            <li><a href="#" class="btn-nav" title="联系"><i class="ico ico-contact"></i><span>contact</span></a></li>
+          </ul>
+        </nav>
+        <div class="links">
+          <a href="#" class="arrow" id="ID_btn_play"><i class="ico-arrow"></i></a>
+        </div>
+       
+      </section>
+      <div class="preload"></div>
+      <script src="js/zepto.js"></script>
+      <script src="js/script.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,45 @@
+{
+	"work1":[
+		{"src" : "images/work1/01.jpg"},
+		{"src" : "images/work1/02.jpg"},
+		{"src" : "images/work1/03.jpg"},
+		{"src" : "images/work1/04.jpg"}
+	],
+	"work2":[
+		{"src" : "images/work2/01.jpg"},
+		{"src" : "images/work2/02.jpg"},
+		{"src" : "images/work2/03.jpg"},
+		{"src" : "images/work2/04.jpg"}	
+	],	
+	"work3":[
+		{"src" : "images/work3/01.jpg"},
+		{"src" : "images/work3/02.jpg"}
+
+	],
+	"work4":[
+		{"src" : "images/work4/01.jpg"},
+		{"src" : "images/work4/02.jpg"},
+		{"src" : "images/work4/03.jpg"},
+		{"src" : "images/work4/04.jpg"},
+		{"src" : "images/work4/05.jpg"},
+		{"src" : "images/work4/06.jpg"}		
+	],	
+	"work5":[
+		{"src" : "images/work5/01.jpg"}
+
+	],
+	"work6":[
+		{"src" : "images/work6/01.jpg"}
+	],	
+	"work7":[
+		{"src" : "images/work7/01.jpg"}
+
+	],
+	"work8":[
+		{"src" : "images/work8/01.jpg"}
+	],	
+	"work9":[
+		{"src" : "images/work9/01.jpg"}
+
+	]
+}
